@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="kalkulatorPTM.js"async defer></script>
+</head>
+<body>
+    <form name="calculator">
+        <table class="tabel">
+            <caption>Kalkulator</caption>
+            <tr>
+                <td>Angka 1</td><td>:</td><td><input type="number" id="angka1"></td>
+            </tr>
+            <tr>
+                <td>Angka 2</td><td>:</td><td><input type="number" id="angka2"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+                    <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+                    <input class="tombol" type="button" onclick="kali()" value="  *  ">
+                    <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+                    <input type="button" onclick="halo()" value="klik">
+                </td>
+            </tr>
+            <tr>
+                <td>Hasil</td><td>:</td><td><h1 type="number" id="hasil"></h1></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <!-- <form name="kalkulator">
+        <input type="number" id="num1">
+        <br>
+        <input type="number" id="num2">
+        <br>
+        <br>
+        <input type="submit" name="kali" onclick="kali()"  value="*">
+        <input type="submit" name="bagi" onclick="bagi()" value="/">
+        <input type="submit" name="tambah" onclick="tambah()" value="+">
+        <input type="submit" name="kurang" onclick="kurang()" value="-">
+        <h1 id="hasil"></h1>
+    </form> -->
+</body>
+</html>

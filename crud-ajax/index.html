@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD AJAX</title>
+</head>
+<body>
+    <h1>CRUD with AJAX</h1>
+    <hr>
+    <br>
+    <table border="1" style="width: 70%;">
+        <thead>
+            <tr style="font-size: 1.5rem;">
+                <td><b>No.</b></td>
+                <td><b>ID Kategori</b></td>
+                <td><b>Menu</b></td>
+                <td><b>Gambar</b></td>
+                <td><b>Harga</b></td>
+                <td><b>Option</b></td>
+            </tr>
+        </thead>
+        <tbody class="targetData">
+
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tr><td>ID Menu : </td><td><input type="number" class="txt-idmenu" disabled></td></tr>
+        <tr><td>ID Kategori : </td><td><input type="number" class="txt-idkategori"></td></tr>
+        <tr><td>Nama Menu : </td><td><input type="text" class="txt-menu"></td></tr>
+        <tr><td>Gambar : </td><td><input type="text" class="txt-gambar"></td></tr>
+        <tr><td>Harga : </td><td><input type="number" class="txt-harga"></td></tr>
+        <tr><td></td><td>
+            <button class="btn-tambah" >Tambah</button>
+            <button class="btn-ubah" style="display: none;">Simpan</button>
+            <button class="btn-batal" style="display: none;">Batal</button>
+        </td></tr>
+    </table>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+</body>
+</html>
